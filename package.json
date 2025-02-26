@@ -123,7 +123,8 @@
     "lint": "yarn run prettier && yarn run eslint",
     "lint-fix": "yarn run prettier-fix && yarn run eslint-fix",
     "fix-staged": "lint-staged --config .lintstagedrc.fix.json --concurrent 1",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release",
+    "prepare": "yarn run build"
   },
   "engines": {
     "node": ">=16"
